@@ -1,0 +1,20 @@
+.devInfo {
+    padding: 20px;
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.info > a {
+    text-decoration: none;
+    color: black;
+}
+
+.info > a > span {
+    font-size: 12px;
+    color: gray;
+}

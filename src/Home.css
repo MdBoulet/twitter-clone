@@ -1,0 +1,25 @@
+.home {
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    overflow-y: scroll;
+
+}
+
+.home::-webkit-scrollbar {
+    display: none;
+}
+
+.home__header {
+    border: 1px solid var(--twitter-background);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.star_color {
+    color: var(--twitter-blue);
+}

@@ -1,0 +1,30 @@
+.widget {
+    padding: 20px;
+    flex: 0.2;
+}
+
+.search_input {
+    flex: 1;
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    background-color: var(--twitter-background);
+    height: 40px;
+    border-radius: 30px;
+}
+
+.search_input > input {
+    flex: 1;
+    border: none;
+    height: 40px;
+    background: none;
+    font-size: 15px;
+}
+
+.search_input > input:focus {
+    outline: none;
+}
+
+.timeline::-webkit-scrollbar {
+    display: none;
+}

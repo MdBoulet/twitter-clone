@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --twitter-background: #e6ecf0;
+  --twitter-blue: #1DA1F2;
+  --twitter-black: #14171A;
+  --twitter-gray: #657786;
+  --twitter-light-gray: #AAB8C2;
+  --twitter-extra-light-gray: #E1E8ED;
+  --twitter-extra-extra-gray: #F5F8FA;
+}

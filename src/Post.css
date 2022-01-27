@@ -1,0 +1,32 @@
+.post {
+    padding: 20px;
+    display: flex;
+    border-bottom: 3px solid var(--twitter-background);
+}
+
+
+.post__content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.post__content > img {
+    border-radius: 20px;
+}
+
+.verified {
+    font-size: 14px !important;
+    color: var(--twitter-blue);
+}
+
+.username {
+    font-size: 15px;
+    font-weight:500;
+    color: gray;
+}
+
+.footer__post {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
